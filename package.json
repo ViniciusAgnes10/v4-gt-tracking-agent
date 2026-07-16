@@ -1,1 +1,16 @@
-{"name":"v4-gt-tracking-agent","version":"3.0.0","private":true,"type":"module","engines":{"node":">=20"},"dependencies":{"@supabase/supabase-js":"2.57.4"}}
+{
+  "name": "v4-gt-tracking-agent",
+  "version": "3.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "1.7.4",
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "@supabase/supabase-js": "2.57.4",
+    "express": "5.2.1",
+    "zod": "4.4.3"
+  }
+}
