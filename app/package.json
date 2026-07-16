@@ -1,0 +1,22 @@
+{
+  "name": "v4-gt-tracking-agent-app",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ChatGPT App interna para orquestracao de tracking, CRM, RevOps, aprovacoes, QA e documentacao.",
+  "scripts": {
+    "start": "node server/src/http.mjs",
+    "check": "node scripts/validate.mjs",
+    "test:store": "node scripts/test-store.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "1.7.4",
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "express": "5.2.1",
+    "zod": "4.4.3"
+  }
+}

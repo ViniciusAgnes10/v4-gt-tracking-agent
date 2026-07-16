@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "policy": {
+    "verify_at_runtime": true,
+    "prefer_official": true,
+    "store_full_docs": false,
+    "record_consulted_at": true
+  },
+  "platforms": [
+    {"id":"openai-skills","name":"OpenAI Skills and Codex customization","domain":"developers.openai.com","entry_url":"https://developers.openai.com/codex/","search_terms":["skills","plugins","MCP","customization"]},
+    {"id":"kommo","name":"Kommo Developers","domain":"developers.kommo.com","entry_url":"https://developers.kommo.com/","search_terms":["API reference","OAuth","leads","contacts","webhooks","custom fields"]},
+    {"id":"rd-station","name":"RD Station Developers","domain":"developers.rdstation.com","entry_url":"https://developers.rdstation.com/","search_terms":["CRM API","Marketing API","OAuth","webhooks","conversions"]},
+    {"id":"hubspot","name":"HubSpot Developers","domain":"developers.hubspot.com","entry_url":"https://developers.hubspot.com/docs/","search_terms":["CRM API","objects","associations","webhooks","forms"]},
+    {"id":"pipedrive","name":"Pipedrive Developers","domain":"developers.pipedrive.com","entry_url":"https://developers.pipedrive.com/docs/api/v1","search_terms":["deals","persons","pipelines","webhooks","pagination"]},
+    {"id":"activecampaign","name":"ActiveCampaign Developers","domain":"developers.activecampaign.com","entry_url":"https://developers.activecampaign.com/reference","search_terms":["contacts","deals","events","webhooks","rate limits"]},
+    {"id":"salesforce","name":"Salesforce Developers","domain":"developer.salesforce.com","entry_url":"https://developer.salesforce.com/docs/","search_terms":["REST API","Change Data Capture","objects","limits"]},
+    {"id":"zoho-crm","name":"Zoho CRM API","domain":"www.zoho.com","entry_url":"https://www.zoho.com/crm/developer/docs/api/v7/","search_terms":["modules","fields","OAuth","webhooks","COQL"]},
+    {"id":"moskit","name":"Moskit Integrations","domain":"developers.moskitcrm.com","entry_url":"https://developers.moskitcrm.com/","search_terms":["API","webhooks","deals","contacts"]},
+    {"id":"meta-capi","name":"Meta Conversions API","domain":"developers.facebook.com","entry_url":"https://developers.facebook.com/docs/marketing-api/conversions-api/","search_terms":["parameters","deduplication","test events","user data","diagnostics"]},
+    {"id":"meta-pixel","name":"Meta Pixel","domain":"developers.facebook.com","entry_url":"https://developers.facebook.com/docs/meta-pixel/","search_terms":["standard events","event setup","advanced matching"]},
+    {"id":"meta-whatsapp","name":"WhatsApp Cloud API","domain":"developers.facebook.com","entry_url":"https://developers.facebook.com/docs/whatsapp/cloud-api/","search_terms":["webhooks","messages","templates","referral"]},
+    {"id":"google-ads-api","name":"Google Ads API","domain":"developers.google.com","entry_url":"https://developers.google.com/google-ads/api/docs/start","search_terms":["conversion upload","click conversions","enhanced conversions for leads","customer match","click view"]},
+    {"id":"google-ads-help","name":"Google Ads Help","domain":"support.google.com","entry_url":"https://support.google.com/google-ads/","search_terms":["Data Manager","offline conversions","enhanced conversions for leads","primary secondary conversions"]},
+    {"id":"gtm","name":"Google Tag Manager","domain":"developers.google.com","entry_url":"https://developers.google.com/tag-platform/tag-manager","search_terms":["dataLayer","templates","server-side","consent mode"]},
+    {"id":"ga4","name":"Google Analytics 4","domain":"developers.google.com","entry_url":"https://developers.google.com/analytics/devguides/collection/ga4","search_terms":["events","Measurement Protocol","DebugView","user properties"]},
+    {"id":"tiktok-business","name":"TikTok for Business API","domain":"business-api.tiktok.com","entry_url":"https://business-api.tiktok.com/portal/docs","search_terms":["Events API","Pixel","offline events","lead generation","audiences"]},
+    {"id":"linkedin-marketing","name":"LinkedIn Marketing APIs","domain":"learn.microsoft.com","entry_url":"https://learn.microsoft.com/en-us/linkedin/marketing/","search_terms":["Conversions API","Lead Gen Forms","Insight Tag","Matched Audiences"]},
+    {"id":"microsoft-advertising","name":"Microsoft Advertising API","domain":"learn.microsoft.com","entry_url":"https://learn.microsoft.com/en-us/advertising/","search_terms":["offline conversions","UET","MSCLKID","customer match"]},
+    {"id":"n8n","name":"n8n Documentation","domain":"docs.n8n.io","entry_url":"https://docs.n8n.io/","search_terms":["credentials","error handling","sub-workflows","queue mode","webhooks"]},
+    {"id":"make","name":"Make Developer Hub","domain":"developers.make.com","entry_url":"https://developers.make.com/","search_terms":["API","webhooks","apps","scenarios","error handling"]},
+    {"id":"google-sheets","name":"Google Sheets API","domain":"developers.google.com","entry_url":"https://developers.google.com/sheets/api","search_terms":["batchUpdate","values","quotas","service account"]},
+    {"id":"bigquery","name":"BigQuery Documentation","domain":"cloud.google.com","entry_url":"https://cloud.google.com/bigquery/docs","search_terms":["partitioning","clustering","streaming","cost control"]},
+    {"id":"supabase","name":"Supabase Documentation","domain":"supabase.com","entry_url":"https://supabase.com/docs","search_terms":["Postgres","RLS","Edge Functions","webhooks","cron"]},
+    {"id":"twilio-whatsapp","name":"Twilio WhatsApp","domain":"www.twilio.com","entry_url":"https://www.twilio.com/docs/whatsapp","search_terms":["webhooks","templates","status callbacks","opt-in"]},
+    {"id":"shopify","name":"Shopify Developers","domain":"shopify.dev","entry_url":"https://shopify.dev/docs","search_terms":["webhooks","orders","customers","pixels","Customer Events"]},
+    {"id":"woocommerce","name":"WooCommerce Developer Docs","domain":"developer.woocommerce.com","entry_url":"https://developer.woocommerce.com/docs/","search_terms":["REST API","webhooks","orders","customers"]},
+    {"id":"stripe","name":"Stripe Documentation","domain":"docs.stripe.com","entry_url":"https://docs.stripe.com/","search_terms":["webhooks","checkout","subscriptions","payment events","idempotency"]}
+  ]
+}

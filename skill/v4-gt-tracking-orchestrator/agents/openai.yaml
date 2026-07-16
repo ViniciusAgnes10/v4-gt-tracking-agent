@@ -1,0 +1,14 @@
+interface:
+  display_name: V4 GT Tracking Orchestrator
+  short_description: Tracking, CRM, atribuicao, CAPI, conversoes offline e RevOps por gates.
+  icon: 🎯
+  accent_color: '#00A884'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,2 @@
+source_id,system,object,owner,truth_for,access,freshness,status,notes
+SRC-001,[SYSTEM],[OBJECT],[OWNER],[METRIC_OR_FIELD],read-only,[FREQUENCY],PENDING,

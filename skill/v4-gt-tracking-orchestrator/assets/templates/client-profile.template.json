@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "client_name": "[CLIENT_NAME]",
+  "segment": "[SEGMENT]",
+  "business_model": "[BUSINESS_MODEL]",
+  "average_ticket": null,
+  "average_sales_cycle_days": null,
+  "timezone": "America/Sao_Paulo",
+  "currency": "BRL",
+  "monthly_lead_volume": null,
+  "crm": [],
+  "marketing_automation": [],
+  "media_platforms": [],
+  "analytics_platforms": [],
+  "data_platforms": [],
+  "entry_channels": [],
+  "owners": {
+    "crm": "[OWNER]",
+    "media": "[OWNER]",
+    "commercial": "[OWNER]",
+    "technical": "[OWNER]"
+  },
+  "go_live_at": null,
+  "read_only_mode": true,
+  "approval_required_for_external_writes": true,
+  "secret_locations": {},
+  "notes": []
+}

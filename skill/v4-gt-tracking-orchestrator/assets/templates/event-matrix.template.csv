@@ -1,0 +1,7 @@
+stage_name,semantic_stage,internal_event,meta_event,google_conversion,timestamp_source,audience,active_stage,requires_approval,notes
+Lead,LEAD,lead_created,Lead,,created_at,,true,true,Review optimization role
+MQL,MQL,mql_created,QualifiedLead,CRM - MQL,stage_entered_at,QUALIFIED,true,true,Definition must be approved
+SQL,SQL,sql_created,QualifiedLead,CRM - SQL,stage_entered_at,SQL,true,true,Definition must be approved
+Oportunidade,OPPORTUNITY,opportunity_created,Opportunity,CRM - Oportunidade,stage_entered_at,HIGH_INTENT,true,true,Validate platform support
+Venda Ganha,WON,purchase_won,Purchase,CRM - Venda Ganha,closed_won_at,CUSTOMERS,false,true,Value and currency required
+Venda Perdida,LOST,deal_lost,,,closed_lost_at,LOST_ROUTING,false,true,Usually not sent as conversion

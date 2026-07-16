@@ -1,0 +1,2 @@
+approval_id,client,action,target,before_state,proposed_state,risk,rollback,requested_at,requested_by,approved_at,approved_by,status
+APR-001,[CLIENT],[ACTION],[TARGET],[BEFORE],[AFTER],[RISK],[ROLLBACK],[TIMESTAMP],[REQUESTER],,,PENDING

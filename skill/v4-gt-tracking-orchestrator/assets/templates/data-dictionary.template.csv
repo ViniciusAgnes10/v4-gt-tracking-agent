@@ -1,0 +1,2 @@
+logical_name,definition,type,source,source_object,field_id,required,fill_rule,default_value,example,impact_if_empty,owner,last_verified_at
+lead_id,Native lead or deal identifier,string,CRM,lead,[FIELD_ID],yes,Read from native object,,12345,No upsert or deduplication,CRM Owner,
