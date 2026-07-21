@@ -1,0 +1,102 @@
+{
+  "project": {
+    "name": "GrowthOps Social Intelligence",
+    "owner": "Vinicius Eduardo Agnes",
+    "current_role": "Gerente de Estratégia",
+    "organization": "ST1 Strategy Command Center",
+    "frequency": "weekly",
+    "formats": ["reel", "carousel", "image"],
+    "collection_window": "latest_12_posts_or_last_7_days_whichever_is_greater",
+    "post_maturity_hours": 48,
+    "low_confidence_below_posts": 6,
+    "missing_data_value": "faltante"
+  },
+  "scoring": {
+    "weights": {
+      "like": 1,
+      "comment": 2,
+      "save": 3,
+      "share": 3
+    },
+    "outlier_score": "weighted_engagement / median_of_same_format_same_profile",
+    "outlier_threshold": 2.0,
+    "strong_outlier_reference": 3.0,
+    "comment_rate": "comments / (likes + comments)",
+    "comment_gate_threshold": 0.3,
+    "comment_gate_requires_explicit_cta": true
+  },
+  "workstreams": {
+    "personal_brand": {
+      "instagram": "vinicius_agnes",
+      "linkedin": "Vinicius Eduardo Agnes",
+      "objectives": [
+        "authority",
+        "qualified_audience_growth",
+        "professional_opportunities",
+        "documented_evolution"
+      ],
+      "victory_signals": [
+        "shares",
+        "saves",
+        "qualified_comments",
+        "follower_growth",
+        "profile_views",
+        "professional_opportunities"
+      ],
+      "positioning": "Estratégia, GrowthOps, Receita, CRM, Automação, IA aplicada e Telecom",
+      "references": [
+        "tallisgomes",
+        "alfredosoares",
+        "bruno.nardon",
+        "joaokepler"
+      ]
+    },
+    "st1_corporate": {
+      "instagram": "st1internet",
+      "objectives": [
+        "competitive_intelligence",
+        "brand_differentiation",
+        "reach",
+        "commercial_demand",
+        "direct_messages"
+      ],
+      "victory_signals": [
+        "reach",
+        "shares",
+        "comments",
+        "direct_messages",
+        "commercial_intent"
+      ],
+      "competitor_groups": {
+        "local_direct": [
+          "estrelasinternet",
+          "sejamaxx",
+          "fixtellnordeste",
+          "idealnetfibra",
+          "wiki_telecom",
+          "idnet_telecom",
+          "clicktelecom_ma",
+          "netmaniainternet",
+          "orbttelecom",
+          "speednetslz"
+        ],
+        "regional_scale": [
+          "brisanet.oficial",
+          "g3telecompi"
+        ]
+      }
+    }
+  },
+  "report_sections": [
+    "top_outliers",
+    "winning_themes",
+    "saturated_themes",
+    "comment_gate_funnels",
+    "winning_format",
+    "winning_hooks",
+    "market_gaps",
+    "prioritized_content_ideas",
+    "data_quality_alerts",
+    "next_comparable_round"
+  ]
+}
